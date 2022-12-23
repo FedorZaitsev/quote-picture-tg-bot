@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  my_tgbot:
+    build: data/tgbot/
+    volumes:
+      - ./data:/data
+networks:
+  default:
+    name: bridge-nerwork
+    external: true
