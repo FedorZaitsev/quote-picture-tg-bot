@@ -197,5 +197,5 @@ def main(token):
 
 
 if __name__ == "__main__":
-    token = '2093628773:AAF1tyeJ5dP8ZEbiRPXLFR3uNqYHe5hDgvg'
+    token = 
     main(token)
